@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nlw_together/shared/themes/app_text_styles.dart';
+import 'package:nlw_together/shared/themes/appcolors.dart';
 import 'package:nlw_together/shared/widgets/divider/divider_widget.dart';
 import 'package:nlw_together/shared/widgets/label_button/label_button.dart';
 
@@ -22,6 +23,7 @@ class SetLabelButtons extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      color: AppColors.shape,
       height: 56,
       child: Row(
         children: [

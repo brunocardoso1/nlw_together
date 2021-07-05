@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:nlw_together/modules/barcode_scanner/barcode_scanner_page.dart';
 import 'package:nlw_together/modules/home/home_page.dart';
+import 'package:nlw_together/modules/insert_boleto/insert_boleto_page.dart';
 import 'package:nlw_together/shared/themes/appcolors.dart';
 
 import 'modules/login/login_page.dart';
@@ -32,6 +33,7 @@ class MyApp extends StatelessWidget {
         "/login": (context) => LoginPage(),
         "/splash": (context) => SplashPage(),
         "/barcode_scanner": (context) => BarcodeScannerPage(),
+        "/insert boleto": (context) => InsertBoletoPage(),
       },
     );
   }

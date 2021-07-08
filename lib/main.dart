@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         "/login": (context) => LoginPage(),
         "/splash": (context) => SplashPage(),
         "/barcode_scanner": (context) => BarcodeScannerPage(),
-        "/insert boleto": (context) => InsertBoletoPage(),
+        "/insert_boleto": (context) => InsertBoletoPage(),
       },
     );
   }

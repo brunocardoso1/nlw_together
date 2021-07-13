@@ -105,7 +105,7 @@ class _BarcodeScannerPageState extends State<BarcodeScannerPage> {
                     },
                     secondaryLabel: "Digitar o código",
                     secondaryOnPressed: (){
-                      Navigator.pushReplacementNamed(context, "/insert_boleto");
+                      Navigator.pushReplacementNamed(context, "/insert_boleto", arguments: controller.status.barcode);
                     },
                   );
                 } else {
